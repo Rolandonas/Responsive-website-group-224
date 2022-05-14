@@ -67,9 +67,7 @@ nav{
     background-color:none;
     max-width: 350px;
     margin: 0 auto;
-
 }
-
 .access img{
     max-width: 100px;
     display: block;
@@ -265,7 +263,7 @@ footer{
 .intro-email{
     max-width: 90%;
     margin: 0 auto;
-    background-color: blanchedalmond;
+    background-color: hsl(219, 40%, 18%);
     position: relative;
     top: 120%;
     padding: 40px;
@@ -359,4 +357,8 @@ footer{
 .social-icon a{
     padding: 10px;
     width: 10%;
+    border: 1px solid #ffff;
+    border-radius: 50px;
+    font-size: 1;
+    justify-content: space-between;
 }
