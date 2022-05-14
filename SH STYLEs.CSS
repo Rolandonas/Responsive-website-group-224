@@ -9,9 +9,9 @@ body{
 }
 nav{
     display: flex;
-    align-items: flex-start;
+    align-items: ;
     justify-content: flex-end;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 10px 0px 0px;
 }
 .button{
     background-image: linear-gradient( to right, hsl(176, 68%, 64%),hsl(198, 60%, 50%));
@@ -24,15 +24,16 @@ nav{
   display: block;
 }
 
-.logo img{
-    width: 130px;
-    margin:0px auto;
+.logo-1{
+    display: flex;
+    max-width: 0%;
+    margin:0px 0px 0px 0px;
     padding: 20px 0px 0px 0px;
 }
 /* ul{
     background-color: blue;
 }
-.logo{
+.logo-1{
     background-color: beige;
 } */
 
@@ -45,7 +46,7 @@ nav{
     font-family: sans-serif;
     margin:0px 0px;
     text-align: right;
-    padding: 0px 0px 0px 0px;
+    padding:-80px 0px 0px 0px;
 }
 .text1{
     color: hsl(0, 0%, 100%);
