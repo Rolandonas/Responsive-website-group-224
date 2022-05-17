@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+nav {
+  background: #092294;
+  height: 80px;
+  width: 100%;
+}
+
+label.logo {
+  color: #efefef;
+  font-size: 38px;
+  line-height: 85px;
+  padding: 0 110px;
+  font-weight: bold;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: #efefef;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+  background: #d1d1d1;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+span {
+  color: rgb(218, 16, 16);
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: #ffffff;
+}
+.register-container{
+  display: flex;
+  max-width: 50%;
+  background-color: #efefef;
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px;
+  align-items: center;
+ margin: 0 auto;
+}
+.register-container{
+  max-width: 50%;
+  padding: 20px 20px 20px 20px;
+  align-items: center;
+  align-content: center;
+  position: relativ;
+}
+.reg-with-us{
+  display: flex;
+  padding: 20px;
+  margin: 0px auto;
+  max-width: 50%;
+  opacity: 0.8;
+}
+
+.button{
+  background-image: linear-gradient( to right, hsl(0, 1%, 75%),hsl(0, 0%, 100%));
+  border:none;
+  padding:10px 90px 20px 90px;
+  margin:0 auto;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 700;oksy 
+  display: block;
+  max-width: 80%;
+}
+.button:hover{
+  background: #d1d1d1;
+  border-radius: 10px;
+  transition: 0.5s;
+}
