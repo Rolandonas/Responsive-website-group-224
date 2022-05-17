@@ -42,6 +42,7 @@ nav ul li a {
   text-transform: uppercase;
 }
 
+
 a.active,
 a:hover {
   background: #d1d1d1;
